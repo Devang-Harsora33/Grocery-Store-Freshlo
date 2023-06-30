@@ -1,0 +1,104 @@
+.blogs .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  gap: 1.5rem;
+}
+.blogs .box-container .box {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+  background: #fff;
+}
+.blogs .box-container .box img {
+  object-fit: cover;
+  height: 25em;
+  width: 100%;
+}
+.blogs .box-container .box .content {
+  padding: 2rem;
+}
+.blogs .box-container .box .content .icons {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: var(--border);
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+.blogs .box-container .box .content .icons a {
+  color: var(--light-color);
+  font-size: 1.5rem;
+}
+.blogs .box-container .box .content .icons a:hover {
+  color: var(--black);
+}
+.blogs .box-container .box .content .icons i {
+  color: var(--orange);
+  margin-right: 0.5rem;
+}
+.blogs .box-container .box .content h3 {
+  color: var(--black);
+  font-size: 2.2rem;
+  line-height: 1.8;
+  padding: 0.5rem 0;
+}
+.blogs .box-container .box .content p {
+  color: var(--light-color);
+  font-size: 1.5rem;
+  line-height: 1.8;
+  padding: 0.5rem 0;
+}
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.steps-image {
+
+  width: 200rem;
+  height: 65rem;
+  
+  border-radius: 5rem;
+  border: 0.3rem solid #898121 ;
+  
+}
+.steps-image:hover{
+  opacity: 60%;
+}
+.text-overlay {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  top:60%;
+  flex-flow: row  ;
+  margin-left: 18rem;
+}
+
+.text {
+  margin-left: 12rem ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--orange);
+  color: var(--light-color);
+  font-size: 2rem;
+  border-radius: 50%;
+}
+.text-ov p{
+  margin-top: 3rem;
+  font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif;
+  width: 27rem;
+  /* color: var(--light-color);   */
+  color: var(--black);
+  text-align: justify;
+}
+.text-ov{
+  margin-right: 20rem;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* padding: 10px; */
+}
+
